@@ -1,11 +1,11 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Dashboard } from './pages/Dashboard';
+import { InitialView } from './pages/initial/InitialView';
 
 export const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Dashboard} />
+        <Route path="/" exact component={InitialView} />
       </Switch>
     </BrowserRouter>
   );

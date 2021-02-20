@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import { Container } from '../Container';
 import Spinner from './Spinner';
 
 interface PageLoadingProps {
@@ -20,11 +20,3 @@ export function PageLoading(props: PageLoadingProps) {
 PageLoading.defaultProps = {
   message: 'Loading...',
 } as PageLoadingProps;
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-`;
