@@ -1,11 +1,10 @@
 <div id="readme" class="Box-body readme blob js-code-block-container">
   <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-    <p align="center"><img width="100px" alt="logo" src="https://github.com/gisabernardess/react-graphql/blob/main/.github/logo.png"></p>
-    <p align="center">React + Jobs GraphQL API</p>
+    <p align="center"><img width="700px" alt="logo" src="https://github.com/gisabernardess/react-graphql/blob/main/.github/logo.png"></p>
     <h2>:rocket: Technologies</h2>
     <p>Client-side was developed with the following technologies:</p>
     <ul>
-      <li><a href="https://reactjs.org/" rel="nofollow">react.js</a></li>
+      <li><a href="https://reactjs.org/" rel="nofollow">React.js</a></li>
       <li><a href="https://styled-components.com/" rel="nofollow">styled-components</a></li>
       <li><a href="https://graphql.org/" rel="nofollow">GraphQL</a></li>
       <li><a href="https://www.apollographql.com/docs/react/" rel="nofollow">Apollo Client v3</a></li>
