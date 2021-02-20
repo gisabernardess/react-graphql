@@ -6,12 +6,9 @@ export const JOBS_QUERY = gql`
       id
       title
       locationNames
-      applyUrl
       company {
         id
         name
-        websiteUrl
-        logoUrl
       }
       cities {
         id

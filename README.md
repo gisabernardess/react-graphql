@@ -9,7 +9,7 @@
       <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gisabernardess/react-graphql">
       <img alt="Github license" src="https://img.shields.io/github/license/gisabernardess/react-graphql">
     </p>
-    <p align="center"><img width="500px" alt="demonstration" src="/"></p>
+    <p align="center"><img width="500px" alt="demonstration" src="https://github.com/gisabernardess/react-graphql/blob/main/.github/demonstration.png"></p>
     <h2>:speech_balloon: Project</h2>
     <p>A simple React.js application that uses a Jobs GraphQL API.</p>
     <h2>:rocket: Technologies</h2>
