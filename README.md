@@ -1,7 +1,7 @@
 <div id="readme" class="Box-body readme blob js-code-block-container">
   <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-    <p align="center"><img width="100px" alt="logo" src="https://github.com/gisabernardess/react-graphql/blob/main/.github/logo.png"></p>
-    <p align="center">React + Jobs GraphQL API</p>
+    <p align="center"><img width="700px" alt="logo" src="https://github.com/gisabernardess/react-graphql/blob/main/.github/logo.png"></p>
+    <p align="center">React.js + Jobs GraphQL API</p>
     <p align="center">
       <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gisabernardess/react-graphql">
       <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/gisabernardess/react-graphql">
@@ -11,11 +11,11 @@
     </p>
     <p align="center"><img width="500px" alt="demonstration" src="/"></p>
     <h2>:speech_balloon: Project</h2>
-    <p>A simple react.js application that uses a Jobs GraphQL API.</p>
+    <p>A simple React.js application that uses a Jobs GraphQL API.</p>
     <h2>:rocket: Technologies</h2>
     <p>This project was developed with the following technologies:</p>
     <ul>
-      <li><a href="https://reactjs.org/" rel="nofollow">react.js</a></li>
+      <li><a href="https://reactjs.org/" rel="nofollow">React.js</a></li>
       <li><a href="https://graphql.jobs/docs/api/" rel="nofollow">Jobs GraphQL API</a></li>
     </ul>
     <h2>:information_source:</a> How To Use </h2>
