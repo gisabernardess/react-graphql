@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from '../Container';
-import Spinner from './Spinner';
+import { ImSpinner9 } from 'react-icons/im';
+import Animation from '../Animation';
 
 interface PageLoadingProps {
   message?: string;
@@ -11,7 +12,10 @@ export function PageLoading(props: PageLoadingProps) {
 
   return (
     <Container>
-      <Spinner />
+      <Animation>
+        <ImSpinner9 size="1.5rem" />
+      </Animation>
+
       {message && <p>{message}</p>}
     </Container>
   );

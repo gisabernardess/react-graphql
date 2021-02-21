@@ -1,7 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Container } from '../Container';
-import Alert from './Alert';
+import { FiAlertTriangle } from 'react-icons/fi';
 
 interface PageAlertProps {
   message?: string;
@@ -12,7 +11,11 @@ export function PageAlert(props: PageAlertProps) {
 
   return (
     <Container>
-      <Alert />
+      <FiAlertTriangle
+        color="var(--color-alert)"
+        size="2rem"
+        style={{ marginBottom: '0.5rem' }}
+      />
       {message && <p>{message}</p>}
     </Container>
   );

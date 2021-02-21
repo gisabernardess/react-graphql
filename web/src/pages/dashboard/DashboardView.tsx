@@ -16,21 +16,11 @@ export const DashboardView = () => {
   return (
     <Container>
       <Grid>
-        <Item style={{ justifyContent: 'flex-start' }}>
-          <span>Title</span>
-        </Item>
-        <Item>
-          <span>Company</span>
-        </Item>
-        <Item>
-          <span>City</span>
-        </Item>
-        <Item>
-          <span>Country</span>
-        </Item>
-        <Item>
-          <span>Remote</span>
-        </Item>
+        <Item>Title</Item>
+        <Item>Company</Item>
+        <Item>City</Item>
+        <Item>Country</Item>
+        <Item>Remote</Item>
       </Grid>
       <JobListView jobs={data?.jobs} />
     </Container>

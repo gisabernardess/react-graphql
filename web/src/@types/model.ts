@@ -12,8 +12,6 @@ export interface Job {
 export interface Company {
   id: ID;
   name: string;
-  websiteUrl: string;
-  logoUrl: string;
 }
 
 export interface City {

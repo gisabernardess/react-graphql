@@ -5,6 +5,7 @@ export const JOBS_QUERY = gql`
     jobs(input: { type: $type, slug: $slug }) {
       id
       title
+      applyUrl
       locationNames
       company {
         id

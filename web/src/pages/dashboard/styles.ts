@@ -12,7 +12,7 @@ export const Grid = styled.div`
 
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr) 0.5fr;
-  grid-gap: 5px 0px;
+  grid-gap: 0.3rem 0;
 `;
 
 export const Item = styled.div`
@@ -20,9 +20,9 @@ export const Item = styled.div`
   justify-content: center;
   padding: 0.5rem 1rem;
   font-weight: bold;
+  font-size: 1.25rem;
 
-  span {
-    font-size: 1.25rem;
-    color: #333333;
+  &:nth-of-type(5n - 4) {
+    justify-content: flex-start;
   }
 `;
