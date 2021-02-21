@@ -13,7 +13,7 @@ export const JobListView = ({ jobs }: JobListViewProps) => {
     <Container>
       <Grid>
         {jobs.map((job: Job) => (
-          <>
+          <React.Fragment key={job.id}>
             <Item>
               <a href={job.applyUrl} target="_blank" rel="noreferrer">
                 {job.title}
@@ -29,7 +29,7 @@ export const JobListView = ({ jobs }: JobListViewProps) => {
                 <FaTimes color="var(--color-danger)" />
               )}
             </Item>
-          </>
+          </React.Fragment>
         ))}
       </Grid>
     </Container>
